@@ -21,7 +21,7 @@ Assim sendo, a feature a ser evoluida é a página inicial em que tecnicamente i
 
 ### Evolução da feature
 
-	Com a implementação do botão *about*, estamos a acrescentar funcionalidades ainda que informativas à aplicação. Na nossa opinião, é uma componente importante e geralmente implementada em variadíssimas situações. Desta forma, acreditamos que melhorámos a página inicial da aplicação, facultando de uma forma simples uma opção onde será possível ao utilizador conhecer quem ajudou a desenvolver e esteve envolvido no projeto ou até como contribuir para o mesmo.
+Com a implementação do botão *about*, estamos a acrescentar funcionalidades ainda que informativas à aplicação. Na nossa opinião, é uma componente importante e geralmente implementada em variadíssimas situações. Desta forma, acreditamos que melhorámos a página inicial da aplicação, facultando de uma forma simples uma opção onde será possível ao utilizador conhecer quem ajudou a desenvolver e esteve envolvido no projeto ou até como contribuir para o mesmo.
 
 
 
