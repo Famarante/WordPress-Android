@@ -24,10 +24,10 @@ Assim sendo, a feature a ser evoluida é a página inicial em que tecnicamente i
 Com a implementação do botão *about*, estamos a acrescentar funcionalidades ainda que informativas à aplicação. Na nossa opinião, é uma componente importante e geralmente implementada em variadíssimas situações. Desta forma, acreditamos que melhorámos a página inicial da aplicação, facultando de uma forma simples uma opção onde será possível ao utilizador conhecer quem ajudou a desenvolver e esteve envolvido no projeto ou até como contribuir para o mesmo.
 
 
-
 ### Análise Crítica
 
-
+Concluída a implementação desta feature, podemos analisar mais uma vez que a forma como o código se encontra estruturado e documentado é fácil de compreender, o que facilitou o seu desenvolvimento. 
+Foi submetido um [*pull-request*](https://github.com/wordpress-mobile/WordPress-Android/pull/3503) que passou com sucesso na compilação do servidor de integração contínua [Travis](https://travis-ci.org/wordpress-mobile/WordPress-Android/builds/96073274), concluíndo então que o estilo de escrita de código usado por nós se encontra de acordo com as *guidelines* que a equipa do WordPress predefiniu.
 
 
 ### Autores
