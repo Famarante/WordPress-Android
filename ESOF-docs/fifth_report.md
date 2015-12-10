@@ -27,6 +27,7 @@ Com a implementação do botão *about*, estamos a acrescentar funcionalidades a
 ### Análise Crítica
 
 Concluída a implementação desta feature, podemos analisar mais uma vez que a forma como o código se encontra estruturado e documentado é fácil de compreender, o que facilitou o seu desenvolvimento. 
+
 Foi submetido um [*pull-request*](https://github.com/wordpress-mobile/WordPress-Android/pull/3503) que passou com sucesso na compilação do servidor de integração contínua [Travis](https://travis-ci.org/wordpress-mobile/WordPress-Android/builds/96073274), concluíndo então que o estilo de escrita de código usado por nós se encontra de acordo com as *guidelines* que a equipa do WordPress predefiniu.
 
 
