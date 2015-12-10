@@ -16,19 +16,48 @@ Assim sendo, a feature a ser evoluida é a página inicial em que tecnicamente i
 
 ### Identificação de componentes que implementam a feature
 
+Ao evoluir o welcome screen tivemos que "mexer" em ficheiros importantes para a aplicação que requerem cuidado para não alterar nada que pudesse prejudicar a aplicação bem como em manter os [padrões de código utilizados](https://github.com/wordpress-mobile/WordPress-Android/blob/develop/CODESTYLE.md). O código implementado foi para a aplicação Android sendo que as linguagens utilizadas foram Java para Android e XML.
 
+No welcome screen foi criado o botão "*About*" que pertence à classe ```WPTextView``` e implementámos um Listener para quando o utilizador carregasse no botão. Ao carregar, uma nova actividade é lançada ```AboutActivity.class``` que abre a página about para o utilizador. Sendo que foram usados os métodos e componentes já existentes do projeto por forma a tornar o projeto harmonioso na junção de ambas as partes.
 
+```java
+mAboutButton = (WPTextView) rootView.findViewById(R.id.about_button);
+        mAboutButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Activity activity = getActivity();
+                if (activity != null) {
+                    ActivityLauncher.aboutPage(activity);
+                }
+            }
+        });
+```
+
+É de salientar que o botão em termos visuais foi feito no ficheiro do fragmento de signin em xml e formatado de forma a ser visualmente apelativo e bem como a se enquadrar com a página.
+
+```xml
+<org.wordpress.android.widgets.WPTextView
+                android:id="@+id/nux_create_account_button"
+                style="@style/WordPress.NUXFlatButton"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/nux_main_button_height"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center"
+                android:text="@string/nux_welcome_create_account" />
+```
 
 ### Evolução da feature
 
 Com a implementação do botão *about*, estamos a acrescentar funcionalidades ainda que informativas à aplicação. Na nossa opinião, é uma componente importante geralmente implementada em variadíssimas outras situações.
 Na imagem seguinte é possível ver o resultado final da implementação do botão *about* na página inicial da aplicação.
 
-<img src="./images/home.png" width="300" align="middle">
+<img src="./images/home.png" width="300" align="center">
 
 Quando se clica no botão, é redirecionado para a seguinte página:
 
-<img src="./images/about.png" width="300">
+<img src="./images/about.png" width="300" align="center>
 
 Desta forma, acreditamos que melhorámos a página inicial da aplicação, facultando de uma forma simples uma opção onde será possível ao utilizador conhecer os termos de utilização, a política de privacidade e a instituição que desenvolveu a aplicação.
 
