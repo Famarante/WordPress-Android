@@ -67,6 +67,11 @@ Concluída a implementação desta feature, podemos analisar mais uma vez que a 
 
 Foi submetido um [*pull-request*](https://github.com/wordpress-mobile/WordPress-Android/pull/3503) que passou com sucesso na compilação do servidor de integração contínua [Travis](https://travis-ci.org/wordpress-mobile/WordPress-Android/builds/96073274), concluíndo então que o estilo de escrita de código usado por nós se encontra de acordo com as *guidelines* que a equipa do WordPress predefiniu.
 
+Após a análise da equipa do WordPress, o *patch* submetido não foi aceite por parte deles, obtendo a seguinte resposta por parte do [@maxme](https://github.com/maxme):
+
+> We won't merge this patch because screen space on this view is pretty limited and we don't want to add an extra button here unless it's really necessary.
+
+A equipa do WordPress achou que um botão *About* no *welcome screen* iria ocupar o espaço já limitado do ecrã e, como tal, acharam o botão supérfluo.
 
 ### Autores
 
