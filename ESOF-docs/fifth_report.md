@@ -50,15 +50,16 @@ mAboutButton = (WPTextView) rootView.findViewById(R.id.about_button);
 
 ### Evolução da feature
 
-Com a implementação do botão *about*, estamos a acrescentar funcionalidades ainda que informativas à aplicação. Na nossa opinião, é uma componente importante geralmente implementada em variadíssimas outras situações.
+Com a implementação do botão *about*, estamos a acrescentar funcionalidades, ainda que informativas, à aplicação. Na nossa opinião, é uma componente importante geralmente implementada em variadíssimas outras situações, tanto aplicações móveis como websites.
 Na imagem seguinte é possível ver o resultado final da implementação do botão *about* na página inicial da aplicação.
 
 <p align="center" ><img src="./images/home.png" width="300" align="center"></p>
 
-Quando se clica no botão, é redirecionado para a seguinte página:
+Quando se clica no botão, é criada uma nova actividade, redirecionado para a seguinte página:
 
 <p align="center" ><img src="./images/about.png" width="300"> </p>
 
+Como é possível ver pela imagem acima, na página *About* é possível ver a versão do software, o publisher do mesmo, bem como bot~es que redireccionam para as politicas de privacidade, termos de serviço e para o site da [Automattic](https://automattic.com/).
 Desta forma, acreditamos que melhorámos a página inicial da aplicação, facultando de uma forma simples uma opção onde será possível ao utilizador conhecer os termos de utilização, a política de privacidade e a instituição que desenvolveu a aplicação.
 
 ### Análise Crítica
@@ -71,7 +72,7 @@ Após a análise da equipa do WordPress, o *patch* submetido não foi aceite por
 
 > We won't merge this patch because screen space on this view is pretty limited and we don't want to add an extra button here unless it's really necessary.
 
-A equipa do WordPress achou que um botão *About* no *welcome screen* iria ocupar o espaço já limitado do ecrã e, como tal, acharam o botão supérfluo.
+A equipa do WordPress achou que um botão *About* no *welcome screen* iria ocupar o espaço já limitado do ecrã e, como tal, acharam o botão supérfluo. Apesar de recusado o pull request continuamos satisfeitos com o trabalho desenvolvido e acreditamos que fomos bem sucedidos no processo de contribuição para o repositório [WordPress-Android](https://github.com/wordpress-mobile/WordPress-Android).
 
 ### Autores
 
