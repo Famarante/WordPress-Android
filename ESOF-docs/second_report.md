@@ -1,14 +1,14 @@
 # Relatório 2 - ESOF #
 ## Gestão de Requesitos ##
 
-###Elicitação###
+### Elicitação ###
 
 Qualquer desenvolvedor ou até mesmo leigo pode ajudar ou testar o projeto. É explicado no [github oficial do projeto](https://github.com/wordpress-mobile/WordPress-Android/blob/develop/CONTRIBUTING.md) a forma de o fazer. Numa primeira fase é indicado que se faça fork do projeto original e trabalhar nesse ramo. Nesta fase estão à espera que o contribuidor siga determinadas regras e standards cuidadosamente explicados e acessíveis aos contribuidores interessados.
 É focada a obrigatoriedade de desenvolver respeitando o estilo de código utilizado pela comunidade, escrever commits claros e oportunos à modificação, comentários ao longo do código para clarificar o seu funcionamento e por fim desenvolver e usar testes automáticos.
 Após desenvolver é necessário fazer um pull request devidamente comentado e, se necessário, com capturas de ecrã de forma a facilitar a verificação do código.
 Por fim, a equipa terá de avaliar o pedido, verificando se existem erros ou algo a alterar, para isso, eles entrarão em contacto através de commits de comentários e comentários de pull request antes do de efetuar o merge do projeto.
 
-###Validação###
+### Validação ###
 
 Qualquer pessoa é bem vinda a contribuir para o projeto sendo que existe um ficheiro (Marked Down) no repositório destinado a informar quem estiver interessado. No ficheiro é explicado o processo para poder contribuir como branching, versioning e ainda um link externo para contribuir na tradução da App.
 No entanto, não são mencionados requisitos, além das code style guidelines. Consequentemente, contactámos vários membros da equipa do Wordpress por forma a tentar perceber como é o processo de validação de contribuidores e se existem requisitos para os mesmos. Conseguimos contactar um dos Mobile Developers para a Automattic, empresa por trás do Wordpress e outros serviços conhecidos,  que nos disponibilizou algum do seu tempo para responder às nossas perguntas.
